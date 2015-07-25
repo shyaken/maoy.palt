@@ -1,0 +1,130 @@
+.divPopup_wrapper {
+    border: 1px solid #3B4046;
+    overflow: hidden;
+}
+.barpopup {
+    background-color: #5C5C5C;
+    overflow: hidden;
+    border-bottom: 1px solid #3B4046;
+} 
+
+.titlepopup { 
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    float: left;
+
+}
+.divPopup_wrapper .close {
+    height: 16px;
+    margin-top: 5px;
+    text-decoration: none;
+    width: 29px;
+    float: right;
+}
+.divPopup_wrapper .close i{
+    color: #FFF;
+}
+.divPopup_wrapper .close i:hover {
+    color: #FF6600;
+}
+#popup_container {
+    font-family: Arial;
+    font-size: 12px;
+    width: 280px; /* Dialog will be no smaller than this */
+    background: #FFF;
+    border: solid 0px #7EBFDF;
+    color: #000;
+
+}
+
+
+#popup_content {
+    padding: 0px;
+    margin: 0px;
+}
+
+#popup_content.alert {
+}
+
+#popup_content.confirm {
+
+}
+
+#popup_content.prompt {
+    
+}
+
+#popup_message {
+    display: block;
+    padding: 10px 5px;
+    text-align: left;
+
+}
+.divPopup_wrapper .alert{
+    background: #FFF;
+}
+#popup_panel {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    background: #ebebeb;
+}
+#popup_panel_two{
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 5px;
+    text-align: center;
+    background: #ebebeb;
+}
+#popup_panel a{
+    text-align: center;
+}
+#popup_panel a.one{
+    cursor: pointer;
+    text-align: center;
+    height: auto;
+}
+#popup_panel_two a.ok{
+    cursor: pointer;
+    text-align: center;
+}
+#popup_panel_two a.cancel{
+    cursor: pointer;
+    text-align: center;
+} 
+
+#popup_prompt {
+    margin: .5em 0em;
+}
+input#popup_ok{
+   
+    
+    
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 0px;
+    height: 24px;
+    margin: 0px;
+    text-decoration: none;
+    cursor: pointer;    
+}
+input#popup_cancel {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 0px;
+    height: 24px;
+    margin: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
