@@ -1,0 +1,1 @@
+This is plugin to crawl games from google play
